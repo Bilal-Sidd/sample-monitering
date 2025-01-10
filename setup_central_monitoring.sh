@@ -31,8 +31,8 @@ scrape_configs:
   - job_name: 'node_exporter'
     static_configs:
       - targets:
-          - '13.61.144.239:9100'   # Test 1
-          - '13.60.7.246:9100'     # Test 2 (local)
+          - '13.49.245.182:9100'   # Test 1
+          - '51.20.133.61:9100'     # Test 2 (local)
 EOF
 
 # Create a docker-compose.yml for Prometheus & Grafana
